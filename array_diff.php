@@ -10,7 +10,7 @@ $a2 = array("a"=>"red","f"=>"green","d"=>"purple");
 
 // $newarray= array_diff_key($a1,$a2);
 //it will take difference of only keys  and return the array elements which are not common in both the array
-$newarray= array_diff_assoc($a1,$a2);
+// $newarray= array_diff_assoc($a1,$a2);
 //array diff function is case sensitive it will treat two keys different if one is in capital and other is smaalll
 
 
