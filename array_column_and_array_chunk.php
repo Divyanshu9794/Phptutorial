@@ -15,8 +15,12 @@ $array = array(
         'first_name'=>'John',
         'last_name' => 'Abraham',
     ),
-)
+);
 
+$newarray= array_column($array ,'first_name');
+echo "<pre>";
+print_r($newarray);
+echo "</pre>";
 
 
 ?>
