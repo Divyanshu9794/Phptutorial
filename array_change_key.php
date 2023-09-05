@@ -8,6 +8,7 @@ $a = array(
 // $newarray = array_change_key_case($a,CASE_UPPER);
 //convert the key in upper case
 $newarray = array_change_key_case($a,CASE_LOWER);
+//convert the key in lower case
 echo "<pre>";
 print_r($newarray);
 echo "</pre>"; 
