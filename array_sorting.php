@@ -35,9 +35,9 @@
 // );
 // natsort($a);
 //sort the array according to value but consider all extension and name and number too....
-$a = array(
-    "Img12.png","img10.png","img2.png","img1.png"
-);
+// $a = array(
+//     "Img12.png","img10.png","img2.png","img1.png"
+// );
 
 // natcasesort($a);
 //sort same as natsort but it is case sensitive
@@ -47,15 +47,16 @@ $food = array(
     "banana",
     "apple"
 );
-array_multisort($a,$food);
+// array_multisort($a,$food);
 //this will sort all the value present in both the array but there is one constraint that both the arrays must be of same size
 
+$newarray = array_reverse($food);
 echo "<pre>";
-print_r($a);
+print_r($newarray);
 echo "</pre>";
 
-echo "<pre>";
-print_r($food);
-echo "</pre>";
+// echo "<pre>";
+// print_r($food);
+// echo "</pre>";
 
 ?>
